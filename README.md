@@ -1,0 +1,2 @@
+# manabu_kadai
+CodeBeginの課題を中心に取り組みプログラミング学習
