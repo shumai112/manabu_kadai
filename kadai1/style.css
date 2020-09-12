@@ -1,0 +1,163 @@
+body{
+    width: 90%;
+    margin-top: 30px;
+    /* margin: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+    color: dimgray;
+}
+
+h1{
+    color: white;
+    background-color: sandybrown;
+    border-radius: 8px 8px 8px 8px;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px 10px;
+    vertical-align: middle;
+
+}
+
+h2{
+    
+    border: solid;
+border-width: 1px;
+border-color: dimgray;
+
+    border-radius: 8px 8px 8px 8px;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px 10px;
+    vertical-align: middle;
+
+}
+
+h3{
+color: sandybrown;
+font-size: medium;
+padding: 0px 30px;
+font-weight: inherit;
+
+}
+
+h4{
+color: sandybrown;
+font-size: medium;
+padding: 0px 5px;
+font-weight: inherit;
+overflow: hidden;
+text-decoration:none ;
+
+}
+
+img{
+    display: block;
+
+margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header{
+    width: 20vw;
+    margin-bottom: 20px;
+   }
+
+.main{
+    width: 70vw;
+    border-radius: 10px 10px 10px 10px;
+}
+
+p{
+  padding: 0px 30px;
+  line-height : 30px;
+}
+
+a{
+
+    color: dimgray;
+}
+
+a:hover{
+
+color: sandybrown;
+}
+
+.links{
+text-align :center;
+padding: 20px 20px;
+
+
+}
+
+.link{
+
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.link:hover{
+    border-bottom: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: sandybrown;
+    color: chocolate;
+
+}
+
+footer{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+
+}
+
+table {
+
+    border-collapse: collapse;
+}
+
+th,td {
+    font-weight:lighter;
+    border: solid 0.3px;  /* 枠線指定 */
+    padding-left:10px;   /* 余白指定 */
+}
+
+th{
+    width: 400px;
+    height: 50px;
+
+}
+td{
+    width: 1200px;
+    height: 50px;
+    
+}
+
+.th_top{
+    background-color: #dcdcdc;
+text-align: left;
+
+}
+
+
+.orange{
+    color:sandybrown;
+}
+
+.gallery{
+float: left;
+margin:20px;
+
+}
+
+hr{
+    clear: both;
+    
+}
+
+.span2{
+    margin-left:5px;
+
+}
