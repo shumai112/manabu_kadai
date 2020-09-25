@@ -16,13 +16,23 @@ margin-left: auto;
 }
 h1{
     margin: 0;
-    padding: 30px;
+    /* padding: 30px; */
       
 }
+div.h-box{
+    position: relative;
+    height:100px;
+    width: 500px;
+}
 #top-image{
-    
+    position: absolute;
     width: 300px;
     height: auto;
+    top:50%;
+    left:4%;
+    transform: translateY(-50%);
+     /* -webkit-transform: translateY(-50%); */
+    /* -ms-transform: translateY( -50%); */
 }
 header{
     border-top:solid #1139ca 5px;
@@ -161,6 +171,7 @@ li.menu_product{
     padding:10px;
     font-size: xx-small;
     text-decoration:none;
+    overflow: hidden;
 }
 li.menu_product:hover{
     color:#1139ca;
@@ -340,9 +351,8 @@ div.under{
     font-size:x-small;
 }
 div.minititle{
-    
-    
-    padding-left:10px;
+    /* padding:10px */
+    /* margin:10px; */
 }
 div.minititle_service{
     
@@ -408,7 +418,7 @@ div.div_mark{
 div.div_input{
     text-align: center;
 }
-span.clip_title{
+div.clip_title{
     color:#1139ca;
 }
 .span_new:after{
