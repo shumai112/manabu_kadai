@@ -1,0 +1,268 @@
+<!-- html残りはスクロールの矢印ボタンと、navをハンバーガー -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shumai_company</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div id="site-box">
+
+        <header>
+            <h1>
+                <a href="index.html"><img id="top-image" src="logo.png" alt="見出し画像"></a>
+            </h1>
+        </header>
+
+        <nav>
+
+            <ul class="pages2_ul">
+                <a class="pages2" href="index.html">
+                    <li class="pages2-1">
+                        <div class="div_pages2_1">ホーム<div class="pages3">home</div>
+                        </div>
+                    </li>
+                </a>
+                <a class="pages2" href="company.html">
+                    <li class="pages">
+                        <div class="div_pages2">会社概要<div class="pages3">company</div>
+                        </div>
+                    </li>
+                </a>
+                <a class="pages2" href="service.html">
+                    <li class="pages">
+                        <div class="div_pages2">サービス<div class="pages3">service</div>
+                        </div>
+                    </li>
+                </a>
+                <a class="pages2" href="recrute.html">
+                    <li class="pages">
+                        <div class="div_pages2">採用情報<div class="pages3">recrute</div>
+                        </div>
+                    </li>
+                </a>
+                <a class="pages2" href="link.html">
+                    <li class="pages">
+                        <div class="div_pages2">リンク<div class="pages3">link</div>
+                        </div>
+                    </li>
+                </a>
+                <a class="pages2" href="contact.html">
+                    <li class="pages">
+                        <div class="div_pages2">お問い合わせ<div class="pages3">contact</div>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+
+
+
+        </nav>
+
+        <main>
+            <h2>
+                <div class="h2_div_news">
+                    <div class="h2_div_news_inner">
+                        お問い合わせ
+                    </div>
+                </div>
+            </h2>
+
+            <p>
+
+
+                当ページと同じ３項目のお問い合わせフォーム（自動フォーム試用版）を簡単に使えるようにセットしています。<br>
+                <span>※当ページ（contact.html）はフォームの見本ページです。実際の自動フォームには使いませんのでご注意下さい。
+                </span><br>
+                <span class="span_red">
+                    ■自動フォームを使う場合（※編集に入る前にご確認下さい）
+                </span><br>
+
+                あなたのメールアドレス設定と、簡単な編集だけで使えます。こちらのマニュアルをご覧下さい。
+                <span class="span_red"><br>
+                    ■自動フォームを使わない場合<br>
+                    テンプレートに梱包されている「form.html」「confirm.html」「finish.html」の3枚のファイルを削除して下さい。
+                </span>
+            </p>
+
+
+            <form action="confirm.php" method="post">
+
+
+                <table class="table_contact">
+
+                    <tr>
+                        <th class="th_contact"><label for="name">お名前</label></th>
+                        <td class="td_contact"><input id="name" type="text" name="yourname"></td>
+                    </tr>
+
+                    <tr>
+                        <th class="th_contact"><label for="email">メールアドレス</label></th>
+                        <td class="td_contact"><input id="email" type="email" name="youremail"></td>
+                    </tr>
+
+                    <tr>
+                        <th class="th_contact2"><label for="comment">コメント</label></th>
+                        <td class="td_contact2"><input id="comment" type="textarea" name="comment"></td>
+                    </tr>
+
+                </table>
+                <br>
+                <div class="div_input">
+                    <input class="input_contact" type="submit" value="内容を確認する">
+                </div>
+
+            </form>
+
+
+        </main>
+        <aside>
+            <ul class="ul_menu">
+                <li class="top">Menu</li>
+                <a href="index.html" class="a_menu">
+                    <li class="menu">メニュー</li>
+                </a>
+                <a href="index.html" class="a_menu">
+                    <li class="menu">メニュー</li>
+                </a>
+                <a href="index.html" class="a_menu">
+                    <li class="menu">メニュー</li>
+                </a>
+            </ul>
+            <ul class="ul_menu_nolink">
+                <li class="top">Menu</li>
+                <a href="index.html" class="a_menu">
+                    <li class="menu">メニュー</li>
+                </a>
+                <a href="index.html" class="a_menu">
+                    <li class="menu">メニュー</li>
+                </a>
+                <a href="index.html" class="a_menu">
+                    <li class="menu">メニュー</li>
+                </a>
+            </ul>
+            <ul class="ul_menu_product_link">
+                <li class="top_product">製品情報</li>
+                <a class="a_product" href="service2.html">
+                    <li class="menu_product">
+
+                        <div class="kadai2link">
+
+                            <img class="clip" src="sample1.jpg" alt="クリップの画像">
+                        </div>
+                        <div class="minititle">
+                            <span class="clip_title">製品情報</span>
+                            <br>簡単な説明をここに入れます。
+                        </div>
+
+                    </li>
+                </a>
+                <a class="a_product" href="service2.html">
+                    <li class="menu_product">
+
+                        <div class="kadai2link">
+
+                            <img class="clip" src="sample1.jpg" alt="クリップの画像">
+                        </div>
+                        <div class="minititle">
+                            <span class="clip_title">製品情報</span>
+                            <br>簡単な説明をここに入れます。
+                        </div>
+
+                    </li>
+                </a>
+                <a class="a_product" href="service2.html">
+                    <li class="menu_product">
+
+                        <div class="kadai2link">
+
+                            <img class="clip" src="sample1.jpg" alt="クリップの画像">
+                        </div>
+                        <div class="minititle">
+                            <span class="clip_title">製品情報</span>
+                            <br>簡単な説明をここに入れます。
+                        </div>
+
+                    </li>
+                </a>
+
+            </ul>
+            <ul class="ul_menu_product_nolink">
+                <li class="top_product">製品情報</li>
+                <a class="a_product" href="service2.html">
+                    <li class="menu_product">
+
+                        <div class="kadai2link">
+
+                            <img class="clip" src="sample1.jpg" alt="クリップの画像">
+                        </div>
+                        <div class="minititle">
+                            <span class="clip_title">製品情報</span>
+                            <br>簡単な説明をここに入れます。
+                        </div>
+
+                    </li>
+                </a>
+                <a class="a_product" href="service2.html">
+                    <li class="menu_product">
+
+                        <div class="kadai2link">
+
+                            <img class="clip" src="sample1.jpg" alt="クリップの画像">
+                        </div>
+                        <div class="minititle">
+                            <span class="clip_title">製品情報</span>
+                            <br>簡単な説明をここに入れます。
+                        </div>
+
+                    </li>
+                </a>
+                <a class="a_product" href="service2.html">
+                    <li class="menu_product">
+
+                        <div class="kadai2link">
+
+                            <img class="clip" src="sample1.jpg" alt="クリップの画像">
+                        </div>
+                        <div class="minititle">
+                            <span class="clip_title">製品情報</span>
+                            <br>簡単な説明をここに入れます。
+                        </div>
+
+                    </li>
+                </a>
+
+            </ul>
+            <ul class="ul_menu">
+                <li class="top">運営</li>
+                <li class="li_unei">
+
+                    <div class="unei">
+                        株式会社SAMPLE COMPANY
+                        <div class="unei2">
+                            東京都XX区XXXXビル3F<br>
+                            TEL:03-0000-0000<br>
+                            (AM9:00〜PM5:00 土日祝休み)<br>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </aside>
+
+        <footer>
+            Copyright&#169; SAMPLE COMPANY All Rights Reserved.
+            <div class="under">
+                《Web Design:Template-Party》
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

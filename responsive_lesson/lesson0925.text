@@ -1,0 +1,42 @@
+構造的な擬似要素
+
+何こめを示す
+- nth-child 最初から（隣接する子要素が対象）
+- nth-last-child　最後から
+2n or 2n+1 
+-n+5:5以下
+
+-nth-of-type 特定の親要素の中の（特定の）子要素が対象となる
+
+UIに関する擬似要素
+
+-enabled :通常の状態(選択・入力できる状態のinput系)
+-disabled :入力・選択が出来ない
+-checked：radioやcheckboxなどで選択されているもの
+
+１つ目を示す擬似要素(デザインを作る時に便利)
+要素の中身の最初
+-first-letter::最初の文字
+-first-line::最初の行
+
+直前や直後の擬似要素(ただし要素の内側にできる・内容の直前直後に追加される)
+-before::要素の直前
+-after::要素の直後
+
+セレクタまとめ
+-タグ
+-クラス
+-ID
+
+セレクタの組み合わせ
+- スペース：特定の要素の内側にある
+- >:特定の要素の"子要素" 孫要素は対象とならない
+- +:特定の要素の"次に来る"要素
+- ~:特定の要素の"兄弟関係"
+
+擬似要素
+- hover/visited
+- first/last/only -child
+- nth-child/nth-of-type
+- first-line/first-letter
+- before/after
